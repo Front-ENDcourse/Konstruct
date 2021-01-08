@@ -12,11 +12,15 @@ li {
 body {
   font-family: 'Open Sans', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
+nav {
+  border-top: 2px solid  rgba(173, 173, 173, 0.15);
+  border-bottom: 2px solid rgba(173, 173, 173, 0.15);
+}
 .wrapper {
   max-width: 1440px;
   margin: 0 auto;
 }
+
 /* header wrapper */
 
 .header-content {
@@ -56,17 +60,15 @@ body {
   letter-spacing: 3.7px;
   text-transform: uppercase;
 }
-.nav-bar {
-  border-top: 1px solid  rgba(173, 173, 173, 0.4);
-  border-bottom: 1px solid rgba(173, 173, 173, 0.4);
-}
 .content-wrapper {
-  display: flex;
   max-width: 940px;
   margin: auto;
 }
 .content-wrapper .logo {
   margin: 10px 0;
+}
+.nav-bar {
+  display: flex;
 }
 .nav-bar ul {
   display: flex;
@@ -84,3 +86,5 @@ body {
   font-weight: bold;
   transition: .5s;
 }
+
+/* main wrapper */
