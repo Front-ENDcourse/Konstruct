@@ -168,6 +168,7 @@ nav {
 .top-capabilities-content {
   display: flex;
   margin-bottom: 70px;
+  flex-wrap: wrap;
 }
 .title-company-capabilities {
   flex: 1 1 40%;
@@ -204,6 +205,7 @@ nav {
 }
 .bottom-capabilities-content {
   display: flex;
+  flex-wrap: wrap;
 }
 .capabilities-card {
   width: 295px;
@@ -211,6 +213,7 @@ nav {
   border: 1px solid #E6E6E6;
   padding: 30px 25px 25px;
   box-sizing: border-box;
+
 }
 .capabilities-card img {
   display: block;
@@ -232,14 +235,19 @@ nav {
   background-position: center;
   height: 499px;
   width: 100%;
-  text-align: center;
-  padding: 120px 550px 0;
+  padding: 120px 0;
   box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 .company-service-order h3 {
   font-size: 30px;
+  max-width: 300px;
   letter-spacing: 0.15px;
   margin-bottom: 20px;
+  display: inline-block;
 }
 .button-order {
   display: inline-block;
