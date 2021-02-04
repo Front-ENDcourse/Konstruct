@@ -7,6 +7,7 @@
 		<link rel="icon" href="./img/Icon.png" type="image/x-icon">
 		<link rel="stylesheet" href="./style.css">
 		<link rel="stylesheet" href="./fonts.css">
+		<link rel="stylesheet" href="./adaptive.css">
 	</head>
 	<body>
 		<header class="wrapper">
@@ -16,10 +17,12 @@
 					<h1 class="main-title">Partnier with Konstruct</h1>
 					<span class="description">An award-winning construction management firm</span>
 				</div>
-				<span class="prompt"><a href="#">Scroll down</a></span>
+				<a href="#scroll-down" class="scroll">Scroll down</a>
 			</div>
-			<nav class="navigation">
-				<div class="content-wrapper nav-bar">
+		</header>
+		<header class="header-navigation" id="scroll-down">
+			<div class="border-header-nav-bar">
+				<nav class="content-wrapper nav-bar">
 					<a href="#" class="logo">
 						<img src="./img/project-logo-black.png" alt="Logo Kontruct">
 					</a>
@@ -30,8 +33,8 @@
 						<li><a href="#">Work</a></li>
 						<li><a href="#">Contact</a></li>
 					</ul>
-				</div>
-			</nav>
+				</nav>
+			</div>
 		</header>
 		<main class="wrapper">
 			<div class="content-wrapper">
@@ -80,18 +83,16 @@
 		<footer class="wrapper">
 				<form action="http:\Konstruct" method="POST">
 					<fieldset class="fieldset">
-						<label class="label">
-							Newsletter Signup
-							<input type="email" class="email-input">
-							<button class="button">SignUp</button>
-						</label>
+						<label for="email-form">Newsletter Signup</label>
+						<input type="email" class="email-input" id="email-form" required>
+						<button class="button">SignUp</button>
 					</fieldset>
 				</form>
 				<div class="footer-background">
 					<div class="content-wrapper footer-wrapper">
 						<div class="footer-about-company">
 							<h4 class="title">Company</h4>
-							<img src="./img/projeco-logo.svg" alt="Konstruct Logo" class="company-logo-footer">
+							<a href="#"><img src="./img/projeco-logo.svg" alt="Konstruct Logo" class="company-logo-footer"></a>
 							<p class="about-company-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
 						</div>
 						<nav class="footer-navigation">
