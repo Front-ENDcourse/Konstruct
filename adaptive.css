@@ -108,7 +108,8 @@
   .content-wrapper {
     padding: 0 5px;
   }
-.story-text-wrapper {
-  min-width: auto;
+  .story-text-wrapper {
+    min-width: auto;
+    flex-basis: 100%;
   }
 }
