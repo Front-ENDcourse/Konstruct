@@ -1,0 +1,133 @@
+@media (max-width:1024px) {
+  .footer-wrapper {
+    padding: 50px 20px;
+  }
+}
+@media (max-width:768px) {
+  .story-text-wrapper > h3 {
+    max-width: none;
+  } 
+  .story-text-wrapper > p {
+    max-width: none;
+  }
+  .story-services-wrapper {
+    margin: 10px 0;
+  }
+  .title-company-capabilities {
+    flex: 1 1 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .title-company-capabilities::after {
+    left: auto;
+    margin-left: -200px;
+    bottom: -10px;
+  }
+  label {
+    display: block;
+    margin-bottom: 20px;
+  }
+  .email-input {
+    margin: 0 auto 10px;
+  }
+  .button {
+    margin-left: 0px;
+  }
+  .footer-about-company {
+    margin: 0 auto 20px;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 2px solid rgba(46, 46, 46, 0.8);
+  }
+  .title {
+    text-align: center;
+  }
+  .company-logo-footer {
+    margin: auto;
+    display: block;
+    margin-bottom: 20px;
+  }
+  .about-company-text {
+     max-width: 320px;
+     margin: auto;
+  }
+  .footer-navigation {
+    padding-bottom: 20px;
+    border-bottom: 2px solid rgba(46, 46, 46, 0.8);
+    margin: 0 auto 20px;
+  }
+  .footer-contacts {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+  }
+  .company-address {
+    max-width: none;
+    margin-bottom: 10px;
+  }
+  .footer-social {
+    padding: 10px;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: center;
+  }
+  footer {
+    font-size: 16px;
+  }
+  .social img {
+    width: 20px;
+  }
+}
+@media (min-width:577px) and (max-width: 768px) {
+  .story-text-wrapper {
+    flex: 1 1 100%;
+    margin: 10px 0;
+    text-align: center;
+  }
+  .services-card {
+    flex: 1 1 140px;
+    min-width: 140px;
+    max-width: 240px;
+  }
+}
+@media (min-width: 576px) {
+  .nav-bar img:first-child {
+    display: none;
+  }
+}
+@media (max-width: 576px) {
+  .services-card {
+    flex: 1 1 100%;
+    min-width: 140px;
+    max-width: 300px; 
+    margin: 0 auto;
+  }
+  .capabilities-card {
+    flex: 1 1 100%;
+    max-width: none;
+    height: auto;
+  }
+  .nav-bar ul {
+    font-size: 13px;
+  }
+  .nav-bar img:first-child {
+    display: initial;
+  }
+  .nav-bar img:last-child {
+    display: none;
+  }
+}
+@media (max-width: 320px) {
+  .content-wrapper .logo {
+    margin: 5px 0;
+  }
+  .content-wrapper {
+    padding: 0 5px;
+  }
+  .story-text-wrapper {
+    min-width: auto;
+    flex-basis: 100%;
+  }
+}
