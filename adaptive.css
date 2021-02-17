@@ -34,9 +34,11 @@
     margin-left: 0px;
   }
   .footer-about-company {
-    margin: 0 auto 10px;
+    margin: 0 auto 20px;
     width: 100%;
     text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 2px solid rgba(46, 46, 46, 0.8);
   }
   .title {
     text-align: center;
@@ -51,7 +53,9 @@
      margin: auto;
   }
   .footer-navigation {
-    margin: 0 auto 10px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid rgba(46, 46, 46, 0.8);
+    margin: 0 auto 20px;
   }
   .footer-contacts {
     display: flex;
@@ -69,6 +73,12 @@
     width: 100%;
     text-align: center;
   }
+  footer {
+    font-size: 16px;
+  }
+  .social img {
+    width: 20px;
+  }
 }
 @media (min-width:577px) and (max-width: 768px) {
   .story-text-wrapper {
@@ -80,6 +90,11 @@
     flex: 1 1 140px;
     min-width: 140px;
     max-width: 240px;
+  }
+}
+@media (min-width: 576px) {
+  .nav-bar img:first-child {
+    display: none;
   }
 }
 @media (max-width: 576px) {
@@ -95,15 +110,18 @@
     height: auto;
   }
   .nav-bar ul {
-    font-size: 10px;
+    font-size: 13px;
+  }
+  .nav-bar img:first-child {
+    display: initial;
+  }
+  .nav-bar img:last-child {
+    display: none;
   }
 }
 @media (max-width: 320px) {
   .content-wrapper .logo {
     margin: 5px 0;
-  }
-  .content-wrapper .logo img {
-    width: 56px;
   }
   .content-wrapper {
     padding: 0 5px;

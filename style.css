@@ -27,15 +27,19 @@ footer {
 .header-content {
   background-image: url(./img/background.png);
   background-position: center;
-  height: 768px;
+  height: 100vh;
   text-align: center;
   padding: 40px;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
+  background-size: cover;
 }
 .logo {
   flex: 0 1 0;
+}
+.logo img:first-child {
+  width: 30px;
 }
 .main-header-text {
   flex: 1 1 30%;
@@ -311,6 +315,9 @@ label {
   box-sizing: border-box;
   outline: none;
 }
+input::placeholder {
+  color: #aab0b3;
+}
 .button {
   max-width: 150px;
   max-height: 40px;
@@ -398,7 +405,7 @@ label {
   margin: 0 10px;
 }
 .social img:hover {
-  fill: var(--main-hover-color);
+  opacity: 0.6;
   transition: .5s;
 }
 .company-info {
